@@ -1,4 +1,8 @@
-//TRY URL API
+// URL API 1
+https://indonesia-public-static-api.vercel.app/api/heroes
+
+
+//TRY URL REST API
 const url = 
 'https://jsonplaceholder.typicode.com/posts/1'; fetch(url)
 .then(res => res.json()) .then(data => { console.log('✅ Judul:', data.title); console.log('📝 Isi:', data.body); })
