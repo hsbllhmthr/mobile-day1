@@ -13,3 +13,13 @@ npm install -g json-server //install
 npm install json-server@0.17.4 //stable version  
 json-server --watch db.json //running server local
 npx json-server db.json --id id //used for id
+
+
+//sample base code
+{
+  "posts" : [
+    {
+      "id" : 1,
+    }
+  ]
+}
